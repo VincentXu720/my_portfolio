@@ -4,7 +4,7 @@ import { getAssetsUrl } from "../../utils";
 export const Skills = ()=>{
     return(
         <>
-            <section className="w-[100%] flex flex-col items-center py-5" id="Skills">
+            <section className="w-[100%] flex flex-col items-center py-5 origin-top" id="Skills">
                 <div className="flex flex-row">
                     <p className="text-white text-3xl">My</p>
                     <p className="text-orange-500 text-3xl ml-2">Skill</p>
