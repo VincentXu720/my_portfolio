@@ -24,7 +24,7 @@ export const Navbar = ()=>{
                         />
                         {/* openMenu = true 才會打開選單 */}
                         { openMenu &&(
-                            <ul className="flex flex-col absolute my-10 p-8 gap-8 bg-gradient-to-b from-sky-950 to-indigo-950 border border-blue-900 ">
+                            <ul className="flex flex-col absolute my-10 p-8 gap-8 bg-gradient-to-b from-slate-600 to-slate-800 border border-blue-900 rounded-md shadow-md shadow-black">
                                 <li onClick = {LinkClick}><a href="#About" className="mr-5 text-white text-base hover:text-orange-400">About</a></li>
                                 <li onClick = {LinkClick}><a href="#Skills" className="mr-5 text-white text-base hover:text-orange-400">Skills</a></li>
                                 <li onClick = {LinkClick}><a href="#Projects" className="mr-5 text-white text-base hover:text-orange-400">Projects</a></li>

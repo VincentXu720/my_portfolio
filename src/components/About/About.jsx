@@ -11,10 +11,10 @@ export const About = ()=>{
                     </div>
                     <div className="flex flex-col md:pl-6 mt-4 md:mt-5 w-[65%] md:w-[50%]">
                         <div className="flex flex-row justify-center pb-2 md:max-w-fit">
-                            <a className="w-8 h-8 flex justify-center items-center mr-2 border border-orange-500 rounded-full hover:bg-orange-400" href="https://www.linkedin.com/in/vincent-4a3046270/">
+                            <a className="w-8 h-8 flex justify-center items-center mr-2 border border-orange-500 rounded-full hover:bg-orange-400 transition ease-in" href="https://www.linkedin.com/in/vincent-4a3046270/">
                                 <img className="w-4 h-4" src={getAssetsUrl("Contact/Linkedin.png")}/>
                             </a>
-                            <a className="w-8 h-8 flex justify-center items-center border border-orange-500 rounded-full hover:bg-orange-400" href="https://github.com/VincentXu720">
+                            <a className="w-8 h-8 flex justify-center items-center border border-orange-500 rounded-full hover:bg-orange-400 transition ease-in" href="https://github.com/VincentXu720">
                                 <img className="w-4 h-4" src={getAssetsUrl("Contact/Github.png")}/>
                             </a>
                         </div>

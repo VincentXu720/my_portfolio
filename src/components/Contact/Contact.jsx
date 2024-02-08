@@ -1,4 +1,4 @@
-import React,{ useState,useEffect }from "react";
+import React,{ useState }from "react";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
 import withReactContent from 'sweetalert2-react-content'
@@ -12,7 +12,6 @@ export const Contact = () => {
     const [Loading,setLoading] = useState(false)
 
     const CheckMessage = ()=>{
-        console.log("pointer")
         if(Name === '' || Message === '' || Email === ''){
             setShowError(true)
         }else{
@@ -54,11 +53,11 @@ export const Contact = () => {
         // sweetAlert 2
         const sendloading = withReactContent(Swal)
         sendloading.fire({
-            title:"sending...",
+            title:"Send Success",
             icon:"success",
             timer:"1000",
             showConfirmButton:true,
-        })   
+        })
         setTimeout(()=>{
             setLoading(false)
             setName('')
@@ -85,7 +84,7 @@ export const Contact = () => {
                             }}
                         >
                             <div className="w-[100%]">
-                                <input className="w-[100%] border-2 border-slate-300 rounded-sm bg-transparent text-white" placeholder="請輸入名字" name="name" type="text" autocomplete="off" value={Name}
+                                <input className="w-[100%] border-2 border-slate-300 rounded-sm bg-transparent text-white" placeholder="請輸入名字" name="name" type="text" autoComplete="off" value={Name}
                                     onChange={e=>{
                                         setName(e.target.value)
                                         handleChange(e)
@@ -94,7 +93,7 @@ export const Contact = () => {
                                 {showError && Name === '' && <p className="text-red-600 text-sm mt-1 text-left">名字不能是空白</p>}
                             </div>
                             <div className="w-[100%]">
-                                <input className="w-[100%] border-2 border-slate-300 rounded-sm bg-transparent text-white mt-2" placeholder="請輸入Email" name="email" type="email" autocomplete="off" value={Email}
+                                <input className="w-[100%] border-2 border-slate-300 rounded-sm bg-transparent text-white mt-2" placeholder="請輸入Email" name="email" type="email" autoComplete="off" value={Email}
                                     onChange={(e)=>{
                                         setEmail(e.target.value)
                                         handleChange(e)
@@ -117,7 +116,6 @@ export const Contact = () => {
                                 {Loading?"Sending...":"Send"}
                             </button>
                         </form>
-                        
                     </div>
               </div>
             </section>
