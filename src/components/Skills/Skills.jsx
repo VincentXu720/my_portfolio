@@ -1,4 +1,4 @@
-import React from "react";
+import React,{ useState }from "react";
 import { getAssetsUrl } from "../../utils";
 export const Skills = ()=>{
     return(

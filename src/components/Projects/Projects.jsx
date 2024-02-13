@@ -24,7 +24,7 @@ export const Projects = ()=>{
                             <a href="https://github.com/VincentXu720/clone_Tesla" target="_blank" className="w-[120px] bg-orange-300 hover:bg-orange-500 transition ease-in border-black rounded-full">
                                 <p className="text-center text-white">Github</p>
                             </a>
-                            <a href="https://vincentxu720.github.io/clone_Tesla/" target="_blank" className="w-[120px] bg-orange-300 hover:bg-orange-500 transition ease-in border-black rounded-full">
+                            <a href="https://vincentxu720.github.io/my_portfolio/" target="_blank" className="w-[120px] bg-orange-300 hover:bg-orange-500 transition ease-in border-black rounded-full">
                                 <p className="text-center text-white" >Demo</p>
                             </a>
                         </div>
@@ -57,7 +57,7 @@ export const Projects = ()=>{
                             <img className="w-[300px] h-[150px]" src={getAssetsUrl("Projects/portfolio.png")} alt="Clone Tesla Website" />
                             <div className="w-[300px] mt-3 md:mt-0 md:ml-3 flex flex-col items-start justify-around md:justify-around">
                                 <p className="text-white leading-8">使用React進行網頁的架構與畫面渲染</p>
-                                <p className="text-white leading-8">使用JSX，讓網頁與使用者互動</p>
+                                <p className="text-white leading-8">使用useState，讓網頁與使用者互動</p>
                                 <p className="text-white leading-8">使用tailwind，增加網頁的樣式與動畫</p>
                                 <p className="text-white leading-8">使用EmailJS套件和sweetalert2套件，讓使用者方便與我聯絡</p>
                             </div>

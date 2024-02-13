@@ -56,7 +56,7 @@ export const Contact = () => {
             title:"Send Success",
             icon:"success",
             timer:"1000",
-            showConfirmButton:true,
+            showConfirmButton:false,
         })
         setTimeout(()=>{
             setLoading(false)
