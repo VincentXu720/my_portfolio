@@ -23,7 +23,7 @@ export const About = ()=>{
                                 <p className="text-white text-2xl">Hi,我叫</p>
                                 <MyName />
                             </div>
-                            <p className="text-white my-2 text-xl animate-appear text-center md:text-left">畢業於台北城市科技大學資工系，是一名應屆畢業生，目前正在努力成為前端工程師</p>
+                            <p className="w-[95%] text-white my-2 text-xl animate-appear md:text-left text-justify">畢業於台北城市科技大學 資訊工程系，喜歡學習與探索未知事務，勇於接受各式各樣的挑戰，以前端工程師為目標努力中，如果想要聯絡我的話，可以透過下面的表單哦!!</p>
                         </div>                    
                     </div>
                 </div>
