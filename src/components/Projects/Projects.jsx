@@ -38,7 +38,7 @@ export const Projects = ()=>{
                                 <p className="text-white leading-8">使用HTML/SCSS 網頁架構</p>
                                 <p className="text-white leading-8">使用Swiper進行電影輪播圖功能</p>
                                 <p className="text-white leading-8">使用Bootstrap 5 RWD響應式設計</p>
-                                <p className="text-white leading-8">使用jQuery的ajax串接TMDB電影庫的API</p>
+                                <p className="text-white leading-8">使用jQuery的AJAX串接TMDB電影庫的API</p>
                                 <p className="text-white leading-8">使用jQuery，讓網頁可以與使用者互動</p>
                             </div>
                         </div>
